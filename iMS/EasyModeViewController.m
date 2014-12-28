@@ -7,7 +7,6 @@
 //
 
 #import "EasyModeViewController.h"
-#import "AdvancedModeViewController.h"
 
 #import "SettingViewController.h"
 @interface EasyModeViewController ()
@@ -83,15 +82,15 @@
 {
     NSString *triggerString;
     if (self.music) {
-        triggerString = @"關";
+        triggerString = NSLocalizedString(@"關",@"關");
     }else{
-        triggerString = @"開";
+        triggerString = NSLocalizedString(@"開",@"關");
     }
-    UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:@"功能選單"
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:NSLocalizedString(@"功能選單",@"功能選單")
                                                              delegate:self
-                                                    cancelButtonTitle:@"繼續練習"
-                                               destructiveButtonTitle:[NSString stringWithFormat:@"[%@]音效", triggerString]
-                                                   otherButtonTitles:@"重新開始",@"結束練習", nil];
+                                                    cancelButtonTitle:NSLocalizedString(@"繼續練習",@"繼續練習")
+                                               destructiveButtonTitle:[NSString stringWithFormat:NSLocalizedString(@"[%@]音效",@"[%@]音效"), triggerString]
+                                                   otherButtonTitles:NSLocalizedString(@"重新開始",@"重新開始"),NSLocalizedString(@"結束練習",@"結束練習"), nil];
     //將actionSheet顯示於畫面上
     [actionSheet showInView:self.view];
 }
@@ -99,7 +98,7 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    NSLog(@"index:%ld", (long)buttonIndex);
+//    NSLog(@"index:%ld", (long)buttonIndex);
     switch (buttonIndex){
         case 0:
             self.music = !self.music;
@@ -130,7 +129,7 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    NSLog(@"buttonIndex:%ld", (long)buttonIndex);
+//    NSLog(@"buttonIndex:%ld", (long)buttonIndex);
     [self createRecord];
     switch (buttonIndex) {
         case 0:

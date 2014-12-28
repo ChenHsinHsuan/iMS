@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		8F4D87BA1A4670F400A4E1AE /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D87B91A4670F400A4E1AE /* RecordTableViewController.m */; };
 		8F4D87BD1A470ABD00A4E1AE /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D87BC1A470ABD00A4E1AE /* RecordTableViewCell.m */; };
-		8F6BB0531A1A10F5004BB50A /* Landscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BB0521A1A10F5004BB50A /* Landscape.storyboard */; };
+		8F79BFEF1A4FF866000E0FC6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F79BFF11A4FF866000E0FC6 /* Localizable.strings */; };
 		8F8BF81B1A187C4100CD4DDF /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF81A1A187C4100CD4DDF /* NavigationViewController.m */; };
 		8F8BF81E1A187C8100CD4DDF /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF81D1A187C8100CD4DDF /* MainMenuViewController.m */; };
 		8F8BF8211A187CBD00CD4DDF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF8201A187CBD00CD4DDF /* SettingViewController.m */; };
 		8F8BF8271A18848C00CD4DDF /* EasyModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF8261A18848C00CD4DDF /* EasyModeViewController.m */; };
-		8F8BF82A1A1884CA00CD4DDF /* AdvancedModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF8291A1884CA00CD4DDF /* AdvancedModeViewController.m */; };
 		8FA3F5721A373E710035A226 /* PlayMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3F5711A373E710035A226 /* PlayMode.m */; };
 		8FB437D71A12536B00920A87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB437D61A12536B00920A87 /* main.m */; };
 		8FB437DA1A12536B00920A87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB437D91A12536B00920A87 /* AppDelegate.m */; };
@@ -45,7 +44,15 @@
 		8F4D87B91A4670F400A4E1AE /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
 		8F4D87BB1A470ABD00A4E1AE /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
 		8F4D87BC1A470ABD00A4E1AE /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
-		8F6BB0521A1A10F5004BB50A /* Landscape.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landscape.storyboard; sourceTree = "<group>"; };
+		8F79BFD51A4FCB38000E0FC6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8F79BFD81A4FCB4A000E0FC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8F79BFD91A4FCFF5000E0FC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F79BFDA1A4FD003000E0FC6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		8F79BFDB1A4FED9A000E0FC6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8F79BFDC1A4FED9A000E0FC6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		8F79BFF01A4FF866000E0FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F79BFF21A4FF867000E0FC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F79BFF31A4FF869000E0FC6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		8F8BF8191A187C4100CD4DDF /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		8F8BF81A1A187C4100CD4DDF /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		8F8BF81C1A187C8100CD4DDF /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
@@ -54,8 +61,6 @@
 		8F8BF8201A187CBD00CD4DDF /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ../SettingViewController.m; sourceTree = "<group>"; };
 		8F8BF8251A18848C00CD4DDF /* EasyModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyModeViewController.h; sourceTree = "<group>"; };
 		8F8BF8261A18848C00CD4DDF /* EasyModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyModeViewController.m; sourceTree = "<group>"; };
-		8F8BF8281A1884CA00CD4DDF /* AdvancedModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedModeViewController.h; sourceTree = "<group>"; };
-		8F8BF8291A1884CA00CD4DDF /* AdvancedModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedModeViewController.m; sourceTree = "<group>"; };
 		8FA3F5701A373E710035A226 /* PlayMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMode.h; sourceTree = "<group>"; };
 		8FA3F5711A373E710035A226 /* PlayMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMode.m; sourceTree = "<group>"; };
 		8FB437D11A12536B00920A87 /* iMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +106,7 @@
 		8FB437C81A12536B00920A87 = {
 			isa = PBXGroup;
 			children = (
+				8F79BFF11A4FF866000E0FC6 /* Localizable.strings */,
 				8FE229D41A2E0E9B00E9E7A7 /* AudioToolbox.framework */,
 				8FE229D21A2E0E8C00E9E7A7 /* AVFoundation.framework */,
 				8FB437D31A12536B00920A87 /* iMS */,
@@ -126,7 +132,6 @@
 				8FB437D41A12536B00920A87 /* Supporting Files */,
 				8FB437E31A12536B00920A87 /* LaunchScreen.xib */,
 				8FB437DE1A12536B00920A87 /* Main.storyboard */,
-				8F6BB0521A1A10F5004BB50A /* Landscape.storyboard */,
 				8FB437E11A12536B00920A87 /* Images.xcassets */,
 				8F8BF8191A187C4100CD4DDF /* NavigationViewController.h */,
 				8F8BF81A1A187C4100CD4DDF /* NavigationViewController.m */,
@@ -136,8 +141,6 @@
 				8F8BF8201A187CBD00CD4DDF /* SettingViewController.m */,
 				8F8BF8251A18848C00CD4DDF /* EasyModeViewController.h */,
 				8F8BF8261A18848C00CD4DDF /* EasyModeViewController.m */,
-				8F8BF8281A1884CA00CD4DDF /* AdvancedModeViewController.h */,
-				8F8BF8291A1884CA00CD4DDF /* AdvancedModeViewController.m */,
 				8FC33D991A2AC59500E665B9 /* clefList.plist */,
 				8FA3F5701A373E710035A226 /* PlayMode.h */,
 				8FA3F5711A373E710035A226 /* PlayMode.m */,
@@ -244,6 +247,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 8FB437C81A12536B00920A87;
 			productRefGroup = 8FB437D21A12536B00920A87 /* Products */;
@@ -264,7 +268,7 @@
 				8FC33D9A1A2AC59500E665B9 /* clefList.plist in Resources */,
 				8FB437E01A12536B00920A87 /* Main.storyboard in Resources */,
 				8FE229D11A2E0D5400E9E7A7 /* wrong.mp3 in Resources */,
-				8F6BB0531A1A10F5004BB50A /* Landscape.storyboard in Resources */,
+				8F79BFEF1A4FF866000E0FC6 /* Localizable.strings in Resources */,
 				8FB437E51A12536B00920A87 /* LaunchScreen.xib in Resources */,
 				8FB437E21A12536B00920A87 /* Images.xcassets in Resources */,
 				8FE229D01A2E0D5400E9E7A7 /* correct.mp3 in Resources */,
@@ -303,7 +307,6 @@
 			files = (
 				8F8BF81E1A187C8100CD4DDF /* MainMenuViewController.m in Sources */,
 				8FE229D81A2E0F8200E9E7A7 /* AVBufferPlayer.m in Sources */,
-				8F8BF82A1A1884CA00CD4DDF /* AdvancedModeViewController.m in Sources */,
 				8FA3F5721A373E710035A226 /* PlayMode.m in Sources */,
 				8F8BF81B1A187C4100CD4DDF /* NavigationViewController.m in Sources */,
 				8FB437DA1A12536B00920A87 /* AppDelegate.m in Sources */,
@@ -334,10 +337,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8F79BFF11A4FF866000E0FC6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F79BFF01A4FF866000E0FC6 /* Base */,
+				8F79BFF21A4FF867000E0FC6 /* en */,
+				8F79BFF31A4FF869000E0FC6 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		8FB437DE1A12536B00920A87 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8FB437DF1A12536B00920A87 /* Base */,
+				8F79BFD91A4FCFF5000E0FC6 /* en */,
+				8F79BFDA1A4FD003000E0FC6 /* zh-Hans */,
+				8F79BFDC1A4FED9A000E0FC6 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -346,6 +362,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				8FB437E41A12536B00920A87 /* Base */,
+				8F79BFD51A4FCB38000E0FC6 /* zh-Hans */,
+				8F79BFD81A4FCB4A000E0FC6 /* en */,
+				8F79BFDB1A4FED9A000E0FC6 /* zh-Hant */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

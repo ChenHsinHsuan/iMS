@@ -68,11 +68,11 @@
     
     scoreLabel.text = [NSString stringWithFormat:@"⭕️x%d ❌x%d",self.correctCount, self.errorCount];
     if (self.questionNumber <= self.correctCount+self.errorCount) {
-        UIAlertView *alertVIew = [[UIAlertView alloc]initWithTitle:@"成績單"
-                                                           message:[NSString stringWithFormat:@"%d 分", (self.correctCount*100/self.questionNumber)]
+        UIAlertView *alertVIew = [[UIAlertView alloc]initWithTitle:NSLocalizedString(@"成績單",@"成績單")
+                                                           message:[NSString stringWithFormat:NSLocalizedString(@"%d 分",@"%d 分"), (self.correctCount*100/self.questionNumber)]
                                                           delegate:self
                                                  cancelButtonTitle:nil
-                                                 otherButtonTitles:@"再次練習", @"結束練習", nil];
+                                                 otherButtonTitles:NSLocalizedString(@"再次練習",@"再次練習"), NSLocalizedString(@"結束練習",@"結束練習"), nil];
         [alertVIew show];
     }
 }

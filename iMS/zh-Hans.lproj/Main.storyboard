@@ -22,7 +22,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pianoBackGround" translatesAutoresizingMaskIntoConstraints="NO" id="PZ1-ih-n29">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="視譜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="GMr-O3-FKW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视谱" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="GMr-O3-FKW">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -38,7 +38,7 @@
                                 <rect key="frame" x="424" y="452" width="160" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" title="練習紀錄">
+                                <state key="normal" title="练习纪录">
                                     <color key="titleColor" red="0.98823529409999999" green="0.0" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -50,7 +50,7 @@
                                 <rect key="frame" x="424" y="452" width="160" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" title="開始練習">
+                                <state key="normal" title="开始练习">
                                     <color key="titleColor" red="0.9882352941176471" green="0.0" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -106,15 +106,15 @@
                                 <exclude reference="Ure-hJ-1bE"/>
                                 <exclude reference="jIj-6t-ZTV"/>
                                 <exclude reference="t5O-am-7Xb"/>
+                                <exclude reference="35i-7p-54d"/>
+                                <exclude reference="5a9-gH-bNq"/>
+                                <exclude reference="sbV-jl-tta"/>
                                 <exclude reference="IhZ-S3-Llm"/>
                                 <exclude reference="L0N-ax-Mdi"/>
                                 <exclude reference="Ru8-0g-4sC"/>
                                 <exclude reference="eB6-ee-igg"/>
                                 <exclude reference="rGy-Vz-2nl"/>
                                 <exclude reference="rH2-lQ-gIR"/>
-                                <exclude reference="35i-7p-54d"/>
-                                <exclude reference="5a9-gH-bNq"/>
-                                <exclude reference="sbV-jl-tta"/>
                                 <exclude reference="1Is-O3-xx0"/>
                                 <exclude reference="3dj-qo-gbQ"/>
                                 <exclude reference="3p6-Ox-T0G"/>
@@ -136,9 +136,9 @@
                             <mask key="constraints">
                                 <include reference="fLn-Uj-0Eg"/>
                                 <include reference="jIj-6t-ZTV"/>
+                                <include reference="35i-7p-54d"/>
                                 <include reference="IhZ-S3-Llm"/>
                                 <include reference="Ru8-0g-4sC"/>
-                                <include reference="35i-7p-54d"/>
                                 <include reference="WpX-MG-ydX"/>
                                 <include reference="ed2-RW-F9S"/>
                                 <include reference="sTd-yH-INM"/>
@@ -154,9 +154,9 @@
                             <mask key="constraints">
                                 <include reference="44Q-nr-TYb"/>
                                 <include reference="Ure-hJ-1bE"/>
+                                <include reference="sbV-jl-tta"/>
                                 <include reference="L0N-ax-Mdi"/>
                                 <include reference="rH2-lQ-gIR"/>
-                                <include reference="sbV-jl-tta"/>
                                 <include reference="1Is-O3-xx0"/>
                                 <include reference="3p6-Ox-T0G"/>
                                 <include reference="DpW-ti-z3W"/>
@@ -172,9 +172,9 @@
                             <mask key="constraints">
                                 <include reference="nKq-y7-7TJ"/>
                                 <include reference="t5O-am-7Xb"/>
+                                <include reference="5a9-gH-bNq"/>
                                 <include reference="eB6-ee-igg"/>
                                 <include reference="rGy-Vz-2nl"/>
-                                <include reference="5a9-gH-bNq"/>
                                 <include reference="3dj-qo-gbQ"/>
                                 <include reference="8Xa-bd-BUv"/>
                                 <include reference="EIx-cN-R0y"/>
@@ -424,7 +424,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s5t-pD-189" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="-123"/>
+            <point key="canvasLocation" x="283.5" y="-318.75"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="1oc-KJ-DiZ">
@@ -454,16 +454,16 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ScF-5a-GcW">
                                 <rect key="frame" x="34" y="75" width="532" height="29"/>
                                 <segments>
-                                    <segment title="F譜號"/>
+                                    <segment title="F谱号"/>
                                     <segment title="混合"/>
-                                    <segment title="G譜號"/>
+                                    <segment title="G谱号"/>
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDP-9v-rwp">
                                 <rect key="frame" x="250" y="508" width="100" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" title="開始"/>
+                                <state key="normal" title="开始"/>
                                 <connections>
                                     <segue destination="QJu-Cx-hjI" kind="presentation" identifier="" id="Rch-Tn-6RX"/>
                                 </connections>
@@ -477,7 +477,7 @@
                                     <action selector="sliderValueChange:" destination="QX5-cd-RDW" eventType="valueChanged" id="mOK-BK-DeT"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" ambiguous="YES" misplaced="YES" text="題" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElV-j8-h8o">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" ambiguous="YES" misplaced="YES" text="题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElV-j8-h8o">
                                 <rect key="frame" x="521" y="418" width="40" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1538,7 +1538,7 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McJ-pt-777">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="選單">
+                                <state key="normal" title="菜单">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>

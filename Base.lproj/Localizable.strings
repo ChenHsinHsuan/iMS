@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  iMS
+
+  Created by Chen Hsin Hsuan on 2014/12/28.
+  Copyright (c) 2014年 aircon. All rights reserved.
+*/
+
+"關" = "關";
+"開" = "開";
+"功能選單" = "功能選單";
+"[%@]音效" = "[%@]音效";
+
+"重新開始" = "重新開始";
+"繼續練習" = "繼續練習";
+
+"成績單" = "成績單";
+"%d 分" = "%d 分";
+"再次練習" = "再次練習";
+"結束練習" = "結束練習";

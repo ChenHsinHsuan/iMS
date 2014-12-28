@@ -16,6 +16,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [self.navigationController setNavigationBarHidden:NO];
+//    [self.navigationController setTitle:[NSLocalizedString(@"";@"") ]];
 }
 
 

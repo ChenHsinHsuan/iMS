@@ -40,6 +40,20 @@
                         </mask>
                     </variation>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="te9-xF-Tog">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aircon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKT-DR-rN6">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="80"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.0" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <size key="shadowOffset" width="2" height="2"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -49,18 +63,28 @@
                 <constraint firstAttribute="centerY" secondItem="QZH-Il-LJf" secondAttribute="centerY" id="K8K-Me-Ref"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="trailing" secondItem="XKT-DR-rN6" secondAttribute="trailing" constant="19" id="Odp-sa-XjR"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
                 <constraint firstAttribute="centerX" secondItem="QZH-Il-LJf" secondAttribute="centerX" id="i5e-bm-dFE"/>
                 <constraint firstAttribute="centerX" secondItem="QZH-Il-LJf" secondAttribute="centerX" id="k0u-2L-qhm"/>
                 <constraint firstItem="QZH-Il-LJf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="90" id="qoT-So-kUt"/>
+                <constraint firstItem="te9-xF-Tog" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="wei-As-6VQ"/>
+                <constraint firstItem="XKT-DR-rN6" firstAttribute="top" secondItem="te9-xF-Tog" secondAttribute="bottom" constant="8" id="wye-yZ-BbG"/>
+                <constraint firstItem="te9-xF-Tog" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="zkt-dV-JEE"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
-            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <variation key="default">
                 <mask key="subviews">
                     <exclude reference="QZH-Il-LJf"/>
+                    <exclude reference="te9-xF-Tog"/>
+                    <exclude reference="XKT-DR-rN6"/>
                 </mask>
                 <mask key="constraints">
+                    <exclude reference="wei-As-6VQ"/>
+                    <exclude reference="zkt-dV-JEE"/>
+                    <exclude reference="Odp-sa-XjR"/>
+                    <exclude reference="wye-yZ-BbG"/>
                     <exclude reference="BWu-O0-Zcw"/>
                     <exclude reference="K8K-Me-Ref"/>
                     <exclude reference="i5e-bm-dFE"/>
@@ -83,15 +107,21 @@
             <variation key="heightClass=regular-widthClass=compact">
                 <mask key="subviews">
                     <include reference="QZH-Il-LJf"/>
+                    <include reference="te9-xF-Tog"/>
+                    <include reference="XKT-DR-rN6"/>
                 </mask>
                 <mask key="constraints">
+                    <include reference="wei-As-6VQ"/>
+                    <include reference="zkt-dV-JEE"/>
+                    <include reference="Odp-sa-XjR"/>
+                    <include reference="wye-yZ-BbG"/>
                     <include reference="K8K-Me-Ref"/>
                     <include reference="i5e-bm-dFE"/>
                     <include reference="4zM-Vu-4VA"/>
                     <include reference="FY9-XI-DSb"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="548" y="455"/>
+            <point key="canvasLocation" x="548" y="613"/>
         </view>
     </objects>
     <resources>

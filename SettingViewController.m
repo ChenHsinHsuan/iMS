@@ -7,7 +7,6 @@
 
 #import "SettingViewController.h"
 #import "EasyModeViewController.h"
-#import "AdvancedModeViewController.h"
 @interface SettingViewController ()
 
 @end
@@ -23,7 +22,7 @@
 
     
 //    if ([self.modeType isEqualToString:NormalMode] || [self.modeType isEqualToString:AdvanceMode]) {
-        [self.unLabel setText:@"題"];
+//        [self.unLabel setText:@"題"];
         self.questionNumberLabel.text = [NSString stringWithFormat:@"%d", (int)self.slider.value];
 //    }else if ([self.modeType isEqualToString:TimeMode]) {
 //        [self.slider setHidden:YES];

@@ -1,0 +1,141 @@
+
+/* Class = "IBUIButton"; normalTitle = "F5"; ObjectID = "0SL-dj-bKr"; */
+"0SL-dj-bKr.normalTitle" = "F5";
+
+/* Class = "IBUIButton"; normalTitle = "F2"; ObjectID = "7tQ-8K-bwa"; */
+"7tQ-8K-bwa.normalTitle" = "F2";
+
+/* Class = "IBUIButton"; normalTitle = "G11"; ObjectID = "8kI-zH-cfE"; */
+"8kI-zH-cfE.normalTitle" = "G11";
+
+/* Class = "IBUILabel"; text = "題"; ObjectID = "ElV-j8-h8o"; */
+"ElV-j8-h8o.text" = "題";
+
+/* Class = "IBUIButton"; normalTitle = "F1"; ObjectID = "F0U-KM-EoE"; */
+"F0U-KM-EoE.normalTitle" = "F1";
+
+/* Class = "IBUIButton"; normalTitle = "F18G6"; ObjectID = "FF6-6z-RhH"; */
+"FF6-6z-RhH.normalTitle" = "F18G6";
+
+/* Class = "IBUIButton"; normalTitle = "F16G4"; ObjectID = "FQ1-2P-fo2"; */
+"FQ1-2P-fo2.normalTitle" = "F16G4";
+
+/* Class = "IBUILabel"; text = "視譜"; ObjectID = "GMr-O3-FKW"; */
+"GMr-O3-FKW.text" = "視譜";
+
+/* Class = "IBUILabel"; text = "G"; ObjectID = "HE6-xc-2Cg"; */
+"HE6-xc-2Cg.text" = "G";
+
+/* Class = "IBUILabel"; text = "100❌"; ObjectID = "I1P-X5-tyf"; */
+"I1P-X5-tyf.text" = "100❌";
+
+/* Class = "IBUILabel"; text = "100⭕️"; ObjectID = "IRM-ZM-JS7"; */
+"IRM-ZM-JS7.text" = "100⭕️";
+
+/* Class = "IBUIButton"; normalTitle = "F9"; ObjectID = "KVs-vB-eyv"; */
+"KVs-vB-eyv.normalTitle" = "F9";
+
+/* Class = "IBUIButton"; normalTitle = "選單"; ObjectID = "McJ-pt-777"; */
+"McJ-pt-777.normalTitle" = "選單";
+
+/* Class = "IBUIButton"; normalTitle = "G12"; ObjectID = "OvE-86-m7s"; */
+"OvE-86-m7s.normalTitle" = "G12";
+
+/* Class = "IBUISegmentedControl"; ScF-5a-GcW.segmentTitles[0] = "F譜號"; ObjectID = "ScF-5a-GcW"; */
+"ScF-5a-GcW.segmentTitles[0]" = "F譜號";
+
+/* Class = "IBUISegmentedControl"; ScF-5a-GcW.segmentTitles[1] = "混合"; ObjectID = "ScF-5a-GcW"; */
+"ScF-5a-GcW.segmentTitles[1]" = "混合";
+
+/* Class = "IBUISegmentedControl"; ScF-5a-GcW.segmentTitles[2] = "G譜號"; ObjectID = "ScF-5a-GcW"; */
+"ScF-5a-GcW.segmentTitles[2]" = "G譜號";
+
+/* Class = "IBUIButton"; normalTitle = "F3"; ObjectID = "ThD-pD-0yz"; */
+"ThD-pD-0yz.normalTitle" = "F3";
+
+/* Class = "IBUIButton"; normalTitle = "F17G5"; ObjectID = "UBc-Jg-Bvx"; */
+"UBc-Jg-Bvx.normalTitle" = "F17G5";
+
+/* Class = "IBUIButton"; normalTitle = "F6"; ObjectID = "UrT-PO-kEA"; */
+"UrT-PO-kEA.normalTitle" = "F6";
+
+/* Class = "IBUILabel"; text = "2014/12/21 10:07"; ObjectID = "Xa3-s7-MsF"; */
+"Xa3-s7-MsF.text" = "2014/12/21 10:07";
+
+/* Class = "IBUIButton"; normalTitle = "開始練習"; ObjectID = "XfF-Jx-8xp"; */
+"XfF-Jx-8xp.normalTitle" = "開始練習";
+
+/* Class = "IBUILabel"; text = "V4.0"; ObjectID = "Y2q-Dr-vgG"; */
+"Y2q-Dr-vgG.text" = "V4.0";
+
+/* Class = "IBUIButton"; normalTitle = "F8"; ObjectID = "YlL-WI-vIW"; */
+"YlL-WI-vIW.normalTitle" = "F8";
+
+/* Class = "IBUIButton"; normalTitle = "F10"; ObjectID = "Z0U-Bm-24b"; */
+"Z0U-Bm-24b.normalTitle" = "F10";
+
+/* Class = "IBUIButton"; normalTitle = "F7"; ObjectID = "ZMc-EB-HZf"; */
+"ZMc-EB-HZf.normalTitle" = "F7";
+
+/* Class = "IBUILabel"; text = "80"; ObjectID = "Zro-Q0-ESD"; */
+"Zro-Q0-ESD.text" = "80";
+
+/* Class = "IBUIButton"; normalTitle = "G8"; ObjectID = "a9e-Rz-bJM"; */
+"a9e-Rz-bJM.normalTitle" = "G8";
+
+/* Class = "IBUIButton"; normalTitle = "F15G3"; ObjectID = "aqX-f4-Cut"; */
+"aqX-f4-Cut.normalTitle" = "F15G3";
+
+/* Class = "IBUIButton"; normalTitle = "G18"; ObjectID = "bRX-BX-0y8"; */
+"bRX-BX-0y8.normalTitle" = "G18";
+
+/* Class = "IBUIButton"; normalTitle = "練習紀錄"; ObjectID = "cDs-Dm-BMG"; */
+"cDs-Dm-BMG.normalTitle" = "練習紀錄";
+
+/* Class = "IBUIButton"; normalTitle = "F12"; ObjectID = "ehC-6R-CjD"; */
+"ehC-6R-CjD.normalTitle" = "F12";
+
+/* Class = "IBUIButton"; normalTitle = "F13G1"; ObjectID = "eoB-5N-T1V"; */
+"eoB-5N-T1V.normalTitle" = "F13G1";
+
+/* Class = "IBUIButton"; normalTitle = "G9"; ObjectID = "fRU-0u-Xkc"; */
+"fRU-0u-Xkc.normalTitle" = "G9";
+
+/* Class = "IBUIButton"; normalTitle = "G10"; ObjectID = "fXi-sx-Mlc"; */
+"fXi-sx-Mlc.normalTitle" = "G10";
+
+/* Class = "IBUIButton"; normalTitle = "開始"; ObjectID = "gDP-9v-rwp"; */
+"gDP-9v-rwp.normalTitle" = "開始";
+
+/* Class = "IBUILabel"; text = "SCORE"; ObjectID = "grj-UR-zUv"; */
+"grj-UR-zUv.text" = "SCORE";
+
+/* Class = "IBUIButton"; normalTitle = "F11"; ObjectID = "kGI-46-Ce0"; */
+"kGI-46-Ce0.normalTitle" = "F11";
+
+/* Class = "IBUIButton"; normalTitle = "G17"; ObjectID = "kd9-Oh-OQc"; */
+"kd9-Oh-OQc.normalTitle" = "G17";
+
+/* Class = "IBUIButton"; normalTitle = "G14"; ObjectID = "lLT-te-vma"; */
+"lLT-te-vma.normalTitle" = "G14";
+
+/* Class = "IBUIButton"; normalTitle = "G13"; ObjectID = "oL7-hI-fwt"; */
+"oL7-hI-fwt.normalTitle" = "G13";
+
+/* Class = "IBUIButton"; normalTitle = "F14G2"; ObjectID = "qvH-2r-Fi1"; */
+"qvH-2r-Fi1.normalTitle" = "F14G2";
+
+/* Class = "IBUIButton"; normalTitle = "G16"; ObjectID = "rLa-P3-EEi"; */
+"rLa-P3-EEi.normalTitle" = "G16";
+
+/* Class = "IBUIButton"; normalTitle = "G7"; ObjectID = "sYR-S3-eI5"; */
+"sYR-S3-eI5.normalTitle" = "G7";
+
+/* Class = "IBUILabel"; text = "30"; ObjectID = "ukr-FQ-dbg"; */
+"ukr-FQ-dbg.text" = "30";
+
+/* Class = "IBUIButton"; normalTitle = "G15"; ObjectID = "vIW-SW-bxt"; */
+"vIW-SW-bxt.normalTitle" = "G15";
+
+/* Class = "IBUIButton"; normalTitle = "F4"; ObjectID = "wPF-wU-Eoo"; */
+"wPF-wU-Eoo.normalTitle" = "F4";

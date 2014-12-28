@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioServices.h>
+#define NSLocalizedString(key, comment) [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
 @interface PlayMode : UIViewController<UIActionSheetDelegate, AVAudioPlayerDelegate, UIAlertViewDelegate>
 @property NSInteger clefType;
 @property NSDictionary *dict;
