@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4D87BA1A4670F400A4E1AE /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D87B91A4670F400A4E1AE /* RecordTableViewController.m */; };
+		8F4D87BD1A470ABD00A4E1AE /* RecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4D87BC1A470ABD00A4E1AE /* RecordTableViewCell.m */; };
+		8F6BB0531A1A10F5004BB50A /* Landscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BB0521A1A10F5004BB50A /* Landscape.storyboard */; };
+		8F8BF81B1A187C4100CD4DDF /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF81A1A187C4100CD4DDF /* NavigationViewController.m */; };
+		8F8BF81E1A187C8100CD4DDF /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF81D1A187C8100CD4DDF /* MainMenuViewController.m */; };
+		8F8BF8211A187CBD00CD4DDF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF8201A187CBD00CD4DDF /* SettingViewController.m */; };
+		8F8BF8271A18848C00CD4DDF /* EasyModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF8261A18848C00CD4DDF /* EasyModeViewController.m */; };
+		8F8BF82A1A1884CA00CD4DDF /* AdvancedModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BF8291A1884CA00CD4DDF /* AdvancedModeViewController.m */; };
+		8FA3F5721A373E710035A226 /* PlayMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3F5711A373E710035A226 /* PlayMode.m */; };
 		8FB437D71A12536B00920A87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB437D61A12536B00920A87 /* main.m */; };
 		8FB437DA1A12536B00920A87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB437D91A12536B00920A87 /* AppDelegate.m */; };
-		8FB437DD1A12536B00920A87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB437DC1A12536B00920A87 /* ViewController.m */; };
 		8FB437E01A12536B00920A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB437DE1A12536B00920A87 /* Main.storyboard */; };
 		8FB437E21A12536B00920A87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB437E11A12536B00920A87 /* Images.xcassets */; };
 		8FB437E51A12536B00920A87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB437E31A12536B00920A87 /* LaunchScreen.xib */; };
 		8FB437F11A12536B00920A87 /* iMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB437F01A12536B00920A87 /* iMSTests.m */; };
+		8FC33D9A1A2AC59500E665B9 /* clefList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FC33D991A2AC59500E665B9 /* clefList.plist */; };
+		8FE229D01A2E0D5400E9E7A7 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE229CE1A2E0D5400E9E7A7 /* correct.mp3 */; };
+		8FE229D11A2E0D5400E9E7A7 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FE229CF1A2E0D5400E9E7A7 /* wrong.mp3 */; };
+		8FE229D31A2E0E8C00E9E7A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE229D21A2E0E8C00E9E7A7 /* AVFoundation.framework */; };
+		8FE229D51A2E0E9B00E9E7A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE229D41A2E0E9B00E9E7A7 /* AudioToolbox.framework */; };
+		8FE229D81A2E0F8200E9E7A7 /* AVBufferPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE229D71A2E0F8200E9E7A7 /* AVBufferPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +41,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F4D87B81A4670F400A4E1AE /* RecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewController.h; sourceTree = "<group>"; };
+		8F4D87B91A4670F400A4E1AE /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
+		8F4D87BB1A470ABD00A4E1AE /* RecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewCell.h; sourceTree = "<group>"; };
+		8F4D87BC1A470ABD00A4E1AE /* RecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewCell.m; sourceTree = "<group>"; };
+		8F6BB0521A1A10F5004BB50A /* Landscape.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landscape.storyboard; sourceTree = "<group>"; };
+		8F8BF8191A187C4100CD4DDF /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		8F8BF81A1A187C4100CD4DDF /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		8F8BF81C1A187C8100CD4DDF /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		8F8BF81D1A187C8100CD4DDF /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		8F8BF81F1A187CBD00CD4DDF /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ../SettingViewController.h; sourceTree = "<group>"; };
+		8F8BF8201A187CBD00CD4DDF /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ../SettingViewController.m; sourceTree = "<group>"; };
+		8F8BF8251A18848C00CD4DDF /* EasyModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyModeViewController.h; sourceTree = "<group>"; };
+		8F8BF8261A18848C00CD4DDF /* EasyModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyModeViewController.m; sourceTree = "<group>"; };
+		8F8BF8281A1884CA00CD4DDF /* AdvancedModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedModeViewController.h; sourceTree = "<group>"; };
+		8F8BF8291A1884CA00CD4DDF /* AdvancedModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedModeViewController.m; sourceTree = "<group>"; };
+		8FA3F5701A373E710035A226 /* PlayMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMode.h; sourceTree = "<group>"; };
+		8FA3F5711A373E710035A226 /* PlayMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMode.m; sourceTree = "<group>"; };
 		8FB437D11A12536B00920A87 /* iMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB437D51A12536B00920A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FB437D61A12536B00920A87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FB437D81A12536B00920A87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FB437D91A12536B00920A87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FB437DB1A12536B00920A87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8FB437DC1A12536B00920A87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FB437DF1A12536B00920A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FB437E11A12536B00920A87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FB437E41A12536B00920A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8FB437EA1A12536B00920A87 /* iMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB437EF1A12536B00920A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FB437F01A12536B00920A87 /* iMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMSTests.m; sourceTree = "<group>"; };
+		8FC33D991A2AC59500E665B9 /* clefList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = clefList.plist; sourceTree = "<group>"; };
+		8FE229CE1A2E0D5400E9E7A7 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		8FE229CF1A2E0D5400E9E7A7 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		8FE229D21A2E0E8C00E9E7A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8FE229D41A2E0E9B00E9E7A7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8FE229D61A2E0F8200E9E7A7 /* AVBufferPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVBufferPlayer.h; sourceTree = "<group>"; };
+		8FE229D71A2E0F8200E9E7A7 /* AVBufferPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVBufferPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE229D51A2E0E9B00E9E7A7 /* AudioToolbox.framework in Frameworks */,
+				8FE229D31A2E0E8C00E9E7A7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,8 @@
 		8FB437C81A12536B00920A87 = {
 			isa = PBXGroup;
 			children = (
+				8FE229D41A2E0E9B00E9E7A7 /* AudioToolbox.framework */,
+				8FE229D21A2E0E8C00E9E7A7 /* AVFoundation.framework */,
 				8FB437D31A12536B00920A87 /* iMS */,
 				8FB437ED1A12536B00920A87 /* iMSTests */,
 				8FB437D21A12536B00920A87 /* Products */,
@@ -81,14 +121,30 @@
 		8FB437D31A12536B00920A87 /* iMS */ = {
 			isa = PBXGroup;
 			children = (
-				8FB437D81A12536B00920A87 /* AppDelegate.h */,
-				8FB437D91A12536B00920A87 /* AppDelegate.m */,
-				8FB437DB1A12536B00920A87 /* ViewController.h */,
-				8FB437DC1A12536B00920A87 /* ViewController.m */,
-				8FB437DE1A12536B00920A87 /* Main.storyboard */,
-				8FB437E11A12536B00920A87 /* Images.xcassets */,
-				8FB437E31A12536B00920A87 /* LaunchScreen.xib */,
+				8FE229D61A2E0F8200E9E7A7 /* AVBufferPlayer.h */,
+				8FE229D71A2E0F8200E9E7A7 /* AVBufferPlayer.m */,
 				8FB437D41A12536B00920A87 /* Supporting Files */,
+				8FB437E31A12536B00920A87 /* LaunchScreen.xib */,
+				8FB437DE1A12536B00920A87 /* Main.storyboard */,
+				8F6BB0521A1A10F5004BB50A /* Landscape.storyboard */,
+				8FB437E11A12536B00920A87 /* Images.xcassets */,
+				8F8BF8191A187C4100CD4DDF /* NavigationViewController.h */,
+				8F8BF81A1A187C4100CD4DDF /* NavigationViewController.m */,
+				8F8BF81C1A187C8100CD4DDF /* MainMenuViewController.h */,
+				8F8BF81D1A187C8100CD4DDF /* MainMenuViewController.m */,
+				8F8BF81F1A187CBD00CD4DDF /* SettingViewController.h */,
+				8F8BF8201A187CBD00CD4DDF /* SettingViewController.m */,
+				8F8BF8251A18848C00CD4DDF /* EasyModeViewController.h */,
+				8F8BF8261A18848C00CD4DDF /* EasyModeViewController.m */,
+				8F8BF8281A1884CA00CD4DDF /* AdvancedModeViewController.h */,
+				8F8BF8291A1884CA00CD4DDF /* AdvancedModeViewController.m */,
+				8FC33D991A2AC59500E665B9 /* clefList.plist */,
+				8FA3F5701A373E710035A226 /* PlayMode.h */,
+				8FA3F5711A373E710035A226 /* PlayMode.m */,
+				8F4D87B81A4670F400A4E1AE /* RecordTableViewController.h */,
+				8F4D87B91A4670F400A4E1AE /* RecordTableViewController.m */,
+				8F4D87BB1A470ABD00A4E1AE /* RecordTableViewCell.h */,
+				8F4D87BC1A470ABD00A4E1AE /* RecordTableViewCell.m */,
 			);
 			path = iMS;
 			sourceTree = "<group>";
@@ -96,6 +152,10 @@
 		8FB437D41A12536B00920A87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FE229CE1A2E0D5400E9E7A7 /* correct.mp3 */,
+				8FE229CF1A2E0D5400E9E7A7 /* wrong.mp3 */,
+				8FB437D81A12536B00920A87 /* AppDelegate.h */,
+				8FB437D91A12536B00920A87 /* AppDelegate.m */,
 				8FB437D51A12536B00920A87 /* Info.plist */,
 				8FB437D61A12536B00920A87 /* main.m */,
 			);
@@ -129,6 +189,7 @@
 				8FB437CD1A12536B00920A87 /* Sources */,
 				8FB437CE1A12536B00920A87 /* Frameworks */,
 				8FB437CF1A12536B00920A87 /* Resources */,
+				8FB437FA1A1253A600920A87 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -168,6 +229,7 @@
 				TargetAttributes = {
 					8FB437D01A12536B00920A87 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2K5477L82X;
 					};
 					8FB437E91A12536B00920A87 = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,9 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC33D9A1A2AC59500E665B9 /* clefList.plist in Resources */,
 				8FB437E01A12536B00920A87 /* Main.storyboard in Resources */,
+				8FE229D11A2E0D5400E9E7A7 /* wrong.mp3 in Resources */,
+				8F6BB0531A1A10F5004BB50A /* Landscape.storyboard in Resources */,
 				8FB437E51A12536B00920A87 /* LaunchScreen.xib in Resources */,
 				8FB437E21A12536B00920A87 /* Images.xcassets in Resources */,
+				8FE229D01A2E0D5400E9E7A7 /* correct.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +280,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8FB437FA1A1253A600920A87 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FB437CD1A12536B00920A87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB437DD1A12536B00920A87 /* ViewController.m in Sources */,
+				8F8BF81E1A187C8100CD4DDF /* MainMenuViewController.m in Sources */,
+				8FE229D81A2E0F8200E9E7A7 /* AVBufferPlayer.m in Sources */,
+				8F8BF82A1A1884CA00CD4DDF /* AdvancedModeViewController.m in Sources */,
+				8FA3F5721A373E710035A226 /* PlayMode.m in Sources */,
+				8F8BF81B1A187C4100CD4DDF /* NavigationViewController.m in Sources */,
 				8FB437DA1A12536B00920A87 /* AppDelegate.m in Sources */,
+				8F4D87BA1A4670F400A4E1AE /* RecordTableViewController.m in Sources */,
+				8F4D87BD1A470ABD00A4E1AE /* RecordTableViewCell.m in Sources */,
 				8FB437D71A12536B00920A87 /* main.m in Sources */,
+				8F8BF8271A18848C00CD4DDF /* EasyModeViewController.m in Sources */,
+				8F8BF8211A187CBD00CD4DDF /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +502,7 @@
 				8FB437F61A12536B00920A87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FB437F71A12536B00920A87 /* Build configuration list for PBXNativeTarget "iMSTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +511,7 @@
 				8FB437F91A12536B00920A87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
