@@ -7,13 +7,25 @@
 //
 
 #import "AppDelegate.h"
-
+#import "iRate.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+
++ (void)initialize
+{
+    //configure iRate
+    [iRate sharedInstance].daysUntilPrompt = 3;
+    [iRate sharedInstance].usesUntilPrompt = 3;
+    [iRate sharedInstance].applicationBundleID = @"com.aircon.iMS";
+    [iRate sharedInstance].onlyPromptIfLatestVersion = NO;
+    
+    //enable preview mode
+//    [iRate sharedInstance].previewMode = YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

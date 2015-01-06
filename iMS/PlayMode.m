@@ -104,11 +104,10 @@
 -(void) createRecord
 {
     
-    NSDateFormatter *formatter;
-    formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd HH:mm"];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     NSString *dateString = [formatter stringFromDate:[NSDate date]];
-    
+    NSLog(@"dateString:%@",dateString);
     
     NSDictionary *innerDataDict = [[NSDictionary alloc]initWithObjectsAndKeys:
                                    [NSString stringWithFormat:@"%ld",(long)self.clefType], @"clefType",
@@ -122,17 +121,19 @@
     NSString *plistPath = [rootPath stringByAppendingPathComponent:@"recordList.plist"];
     NSLog(@"plistPath:%@",plistPath);
 
-    NSMutableDictionary *dataDict;
-    if(plistPath != nil){
-        dataDict = [[NSMutableDictionary alloc]initWithContentsOfFile:plistPath];
+    NSMutableDictionary *dataDict = [[NSMutableDictionary alloc]initWithContentsOfFile:plistPath];
+    NSLog(@"rows:%lu", (unsigned long)[[dataDict allKeys]count]);
+    if ([[dataDict allKeys]count] > 0) {
         [dataDict setObject:innerDataDict forKey:dateString];
     }else{
         dataDict = [[NSMutableDictionary alloc]initWithObjectsAndKeys:innerDataDict, dateString,nil];
     }
     
     // 寫入 plist 檔案
-    if ([dataDict writeToFile:plistPath atomically:YES] == YES) {
+    if ([dataDict writeToFile:plistPath atomically:YES]) {
         NSLog(@"成功寫入 dic");
+    }else{
+        NSLog(@"寫入 dic  失敗");
     }
 }
 
